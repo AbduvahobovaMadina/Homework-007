@@ -1,0 +1,55 @@
+.upload{
+    width: 100%;
+    background: rgba(26, 25, 25, 1);
+    padding: 100px 0 300px 0;
+    h2{
+        font-size: 68px;
+        font-weight: 500;
+        width: 70%;
+        color: #fff;
+        font-family: Comic-neue;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 500;
+        font-family: Comic-neue;
+        width: 80%;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    .second{
+        transform: translateY(40px);
+    }
+    .third{
+        transform: translateY(80px);
+    }
+    .fourth{
+        transform: translateY(240px);
+    }
+    .fifth{
+        transform: translateY(200px);
+    }
+    .sixth{
+        transform: translateY(160px);
+    }
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__structure{
+        width: 360px;
+        padding: 30px;
+        display: flex;
+        background: $bg-py;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+        img{
+            width: 52px;
+            height: 62px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import "varibale";
+@import "fonts";
+@import "mixins";
+@import "reset";
+
+
+@import "block/header";
+@import "block/hero";
+@import "block/currency";
+@import "block/revolution";
+@import "block/nexus";
+@import "block/menu";
+@import "block/upload";
+@import "block/activities";
+@import "block/footer";
+body{
+    min-height: 500vh;
+}
